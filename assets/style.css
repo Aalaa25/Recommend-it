@@ -1,0 +1,80 @@
+body {
+    background-color: #0a1625;
+    color: #e0e7e9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Hover effects for all cards */
+.card {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 163, 224, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 163, 224, 0.3);
+    border: 1px solid rgba(0, 163, 224, 0.5);
+}
+
+.poster-card {
+    transition: all 0.3s ease;
+}
+
+.poster-card:hover {
+    transform: scale(1.08) translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 163, 224, 0.4);
+    z-index: 10;
+}
+
+.poster-img, .poster-img-large {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 163, 224, 0.3);
+}
+
+.poster-img:hover, .poster-img-large:hover {
+    box-shadow: 0 8px 16px rgba(0, 163, 224, 0.6);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 163, 224, 0.4);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(10, 20, 40, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 163, 224, 0.5);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 163, 224, 0.7);
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.loading-pulse {
+    animation: pulse 1.5s infinite ease-in-out;
+}
