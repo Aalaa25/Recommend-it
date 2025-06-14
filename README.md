@@ -35,12 +35,13 @@ This project was a team collaboration built with dedication and creativity. Spec
 
 ## 📁 Project Structure 
 
-Recommend-it/
-├── app.py
-├── Dockerfile
-├── requirements.txt
-├── user_layout.py
-├── item_layout.py
-└── README.md
-## Application Demo
+Recommend-it/  
+├── app.py  
+├── Dockerfile  
+├── requirements.txt  
+├── user_layout.py  
+├── item_layout.py  
+└── README.md  
+
+## 📽️ Application Demo  
 https://github.com/user-attachments/assets/b8f6a042-cb72-4bde-a8e5-766d261090d0
