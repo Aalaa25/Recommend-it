@@ -7,7 +7,7 @@ import dash_bootstrap_components as dbc
 
 df = pd.read_csv('ratings.csv')
 df2 = pd.read_csv('movies.csv')
-sim_df = pd.read_csv('similarity.csv.gz', index_col=0)
+sim_df = pd.read_csv('similarity.csv.gz', compression='gzip', index_col=0)
 
 movie_merge = pd.merge(df, df2, on='movieId')
 movie_merge['timestamp'] = movie_merge['timestamp'].apply(lambda x: datetime.utcfromtimestamp(x))
