@@ -28,7 +28,7 @@ The app is containerized using **Docker** and deployed on **Hugging Face Spaces*
 
 This project was a team collaboration built with dedication and creativity. Special thanks to:
 
-- **ADHAM**
+- **Adham Assy**
 - **Alaa Hussien**
 
 ---
